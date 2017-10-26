@@ -379,8 +379,7 @@ public:
 			value1 = nextFloat(index);
 			value2 = nextFloat(index);
 		}
-
-		return Point2(value1, value2);
+		return Point2(0.5f, 0.5f);
 	}
 
 	std::string toString() const {
